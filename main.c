@@ -17,9 +17,9 @@ int main() {
 
   clear_screen(s);
 
-  draw_line(0, 0, 300, 200, s, c);
+  draw_line(400, 100, 60, 500, s, c);
 
   display(s);
-  save_ppm(s, "lines.ppm");
+  // save_ppm(s, "lines.ppm");
   save_extension(s, "lines.png");
 }

@@ -22,9 +22,9 @@ int main() {
   draw_line(250, 0, 250, 500, s, c);
   draw_line(0, 250, 500, 250, s, c);
   
-  draw_line(100, 0, 400, 500, s, c);
+  draw_line(0, 100, 500, 400, s, c);
   draw_line(50, 0, 450, 500, s, c);
-  draw_line(100, 500, 400, 0, s, c);
+  draw_line(0, 400, 500, 100, s, c);
   draw_line(50, 500, 450, 0, s, c);
 
   display(s);

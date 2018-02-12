@@ -4,6 +4,7 @@ CC= gcc
 
 main: $(OBJECTS)
 	$(CC) -o main $(OBJECTS)
+	./main
 
 main.o: main.c display.h draw.h ml6.h
 	$(CC) -c main.c
